@@ -36,4 +36,6 @@ SELECT * FROM characters;
 INSERT INTO lightsabers (hilt_metal, color, character_id) VALUES ('Mandalorian iron', 'red', 1);
 INSERT INTO lightsabers(hilt_metal, color, character_id) VALUES ('wood', 'red', 2);
 
+SELECT * FROM lightsabers WHERE character_id = 2;
+
 SELECT * FROM lightsabers;
